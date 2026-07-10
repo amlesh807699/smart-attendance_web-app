@@ -1,0 +1,93 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+.env.*
+
+# Python Cache
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Coverage
+.coverage
+htmlcov/
+
+# SQLite
+*.sqlite3
+*.db
+
+# Temporary Files
+*.tmp
+*.temp
+
+# =========================
+# Face Recognition Data
+# =========================
+face_data/
+
+# Uploaded Images
+uploads/
+temp/
+output/
+
+# Model Files (if generated)
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pickle
+*.pkl
+
+# TensorFlow
+checkpoints/
+
+# =========================
+# Secrets
+# =========================
+config.py
+secrets.py
+credentials.json
+service-account.json
